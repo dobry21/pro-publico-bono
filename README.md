@@ -46,7 +46,7 @@ Libraries for generating, editing, and templating Word documents — contracts, 
 
 
 
-### 2a - Agentic capapilites 
+### 2a — Agentic Capabilities
 | Name | License | Language | Description | Links |
 |------|---------|----------|-------------|-------|
 | [LangGraph](https://langchain-ai.github.io/langgraph/) | MIT | Python | Stateful, graph-based agent orchestration; ideal for multi-step legal research and review workflows | [GitHub](https://github.com/langchain-ai/langgraph) |
@@ -56,32 +56,32 @@ Libraries for generating, editing, and templating Word documents — contracts, 
 | [LlamaIndex](https://www.llamaindex.ai/) | MIT | Python | RAG framework for ingesting, indexing, and querying legal documents (contracts, case law, filings) | [GitHub](https://github.com/run-llama/llama_index) |
 | [Haystack](https://haystack.deepset.ai/) | Apache-2.0 | Python | End-to-end NLP pipelines for document search and Q&A; widely used for legal document retrieval | [GitHub](https://github.com/deepset-ai/haystack) |
 
-### 2b - Search engine
+### 2b — Search Engines
 | Name | License | Language | Description | Links |
 |------|---------|----------|-------------|-------|
-| [Meilisearch](https://www.meilisearch.com/) | Search | MIT | Rust | Fast, typo-tolerant full-text search engine; good for building in-house legal knowledge bases | [GitHub](https://github.com/meilisearch/meilisearch) |
+| [Meilisearch](https://www.meilisearch.com/) | MIT | Rust | Fast, typo-tolerant full-text search engine; good for building in-house legal knowledge bases | [GitHub](https://github.com/meilisearch/meilisearch) |
 
-### 2c - Data base
+### 2c — Databases
 | Name | License | Language | Description | Links |
 |------|---------|----------|-------------|-------|
-| [Weaviate](https://weaviate.io/) | Vector DB | BSD-3 | Go | Open-source vector database for semantic search over legal corpora | [GitHub](https://github.com/weaviate/weaviate) |
-| [Qdrant](https://qdrant.tech/) | Vector DB | Apache-2.0 | Rust | High-performance vector search engine; well-suited for contract similarity and case law retrieval | [GitHub](https://github.com/qdrant/qdrant) |
-| [Supabase](https://supabase.com/) | Database | Apache-2.0 | TypeScript | Open-source Firebase alternative (Postgres + Auth + Storage); rapid backend for legal AI apps | [GitHub](https://github.com/supabase/supabase) |
+| [Weaviate](https://weaviate.io/) | BSD-3 | Go | Open-source vector database for semantic search over legal corpora | [GitHub](https://github.com/weaviate/weaviate) |
+| [Qdrant](https://qdrant.tech/) | Apache-2.0 | Rust | High-performance vector search engine; well-suited for contract similarity and case law retrieval | [GitHub](https://github.com/qdrant/qdrant) |
+| [Supabase](https://supabase.com/) | Apache-2.0 | TypeScript | Open-source Firebase alternative (Postgres + Auth + Storage); rapid backend for legal AI apps | [GitHub](https://github.com/supabase/supabase) |
 
-### 2d - Model deploymenty
+### 2d — Model Deployment
 | Name | License | Language | Description | Links |
 |------|---------|----------|-------------|-------|
-| [Ollama](https://ollama.com/) | LLM Runtime | MIT | Go | Run open-weight LLMs locally; critical for air-gapped legal environments where data cannot leave premises | [GitHub](https://github.com/ollama/ollama) |
-| [vLLM](https://docs.vllm.ai/) | LLM Runtime | Apache-2.0 | Python | High-throughput LLM serving; deploy open models for internal legal AI with production performance | [GitHub](https://github.com/vllm-project/vllm) |
+| [Ollama](https://ollama.com/) | MIT | Go | Run open-weight LLMs locally; critical for air-gapped legal environments where data cannot leave premises | [GitHub](https://github.com/ollama/ollama) |
+| [vLLM](https://docs.vllm.ai/) | Apache-2.0 | Python | High-throughput LLM serving; deploy open models for internal legal AI with production performance | [GitHub](https://github.com/vllm-project/vllm) |
 
-### 2e - Model safety
+### 2e — Model Safety
 | Name | License | Language | Description | Links |
 |------|---------|----------|-------------|-------|
 | [Guardrails AI](https://www.guardrailsai.com/) | Apache-2.0 | Python | Validates and corrects LLM outputs against schemas and rules; useful for contract clause extraction | [GitHub](https://github.com/guardrails-ai/guardrails) |
 | [Garak](https://garak.ai/) | Apache-2.0 | Python | LLM vulnerability scanner; red-teaming tool to probe legal AI systems for hallucination and bias | [GitHub](https://github.com/NVIDIA/garak) |
 | [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | Apache-2.0 | Python | NVIDIA's toolkit for adding programmable guardrails (topical, safety, factual) to LLM applications | [GitHub](https://github.com/NVIDIA/NeMo-Guardrails) |
 
-### 2f - Self-Hosted AI Workspaces
+### 2f — Self-Hosted AI Workspaces
 
 General-purpose, self-hostable AI chat platforms with RAG, agents, and document intelligence — deployable on-premises for data-sensitive legal environments.
 
