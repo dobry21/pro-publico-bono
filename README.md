@@ -13,6 +13,7 @@ Agent frameworks and pipeline coordination for multi-step legal AI workflows.
 | Name | License | Language | Description | Links |
 |------|---------|----------|-------------|-------|
 | [Mike](https://github.com/willchen96/mike) | AGPL-3.0 | TypeScript | Open-source AI legal platform with Next.js frontend and Express backend; integrates Supabase Auth + Postgres, S3-compatible storage, and LibreOffice for DOC/DOCX-to-PDF conversion | [GitHub](https://github.com/willchen96/mike) |
+| [Suzie Law](https://github.com/firelex/suzielaw) | MIT | TypeScript | Open-source alternative to Harvey; legal AI workspace with counsel chat, 12 practice-area personas, 160+ agentic prompt recipes, document Q&A, DOCX drafting, RAG knowledge base, CourtListener case-law research, and local model support; built on the Team Suzie agent platform | [GitHub](https://github.com/firelex/suzielaw) · [Site](https://suzielaw.com) |
 
 
 
