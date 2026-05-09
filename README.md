@@ -30,14 +30,14 @@ Ingestion, parsing, RAG, NLP, and output validation for legal document corpora.
 
 ### 1c — Word (DOCX)
 
-Libraries for generating, editing, and templating Word documents — contracts, pleadings, briefs.
+Libraries for generating, editing, and templating Word documents.
 
 | Name | License | Language | Description | Links |
 |------|---------|----------|-------------|-------|
-| [Docling](https://ds4sd.github.io/docling/) | MIT | Python | IBM document parsing library; converts PDFs, DOCX, and scanned contracts into structured data | [GitHub](https://github.com/DS4SD/docling) |
-| [python-docx](https://python-docx.readthedocs.io/) | MIT | Python | Create and modify Word (.docx) files programmatically; the standard library for contract generation | [GitHub](https://github.com/python-openxml/python-docx) |
-| [docxtpl](https://docxtpl.readthedocs.io/) | MIT | Python | Jinja2-based DOCX templating; fill legal document templates with structured data from Python | [GitHub](https://github.com/elapouya/python-docx-template) |
-| [Mammoth](https://github.com/mwilliamson/mammoth.py) | BSD-2 | Python / JS | Converts DOCX to clean HTML or Markdown; useful for ingesting Word contracts into AI pipelines | [GitHub](https://github.com/mwilliamson/mammoth.py) |
+| [Docling](https://ds4sd.github.io/docling/) | MIT | Python | IBM document parsing library; converts PDF, DOCX, PPTX, XLSX, HTML, images, LaTeX, and audio to Markdown, HTML, or lossless JSON; advanced PDF understanding (layout, reading order, tables via TableFormer, formulas, image classification); also available as a REST API via docling-serve | [GitHub](https://github.com/docling-project/docling) |
+| [python-docx](https://python-docx.readthedocs.io/) | MIT | Python | Create, read, and modify Word 2007+ (.docx) files programmatically; supports paragraphs, headings, tables, images, styles, headers, and footers | [GitHub](https://github.com/python-openxml/python-docx) |
+| [docxtpl](https://docxtpl.readthedocs.io/) | MIT | Python | Uses a .docx file as a Jinja2 template; supports variables, loops, conditionals, inline images, table cell merging (colspan), subdocuments, and custom Jinja2 filters; templates are authored directly in Word | [GitHub](https://github.com/elapouya/python-docx-template) |
+| [Mammoth](https://github.com/mwilliamson/mammoth.py) | BSD-2 | Python / JS | Converts .docx to clean semantic HTML or Markdown by mapping Word paragraph styles to HTML elements; supports customizable style mappings, inline or file-based image export, and raw text extraction; available in Python, JavaScript, Java, and .NET | [GitHub](https://github.com/mwilliamson/mammoth.py) |
 
 
 ---
