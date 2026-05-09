@@ -12,6 +12,7 @@ Agent frameworks and pipeline coordination for multi-step legal AI workflows.
 
 | Name | License | Language | Description | Links |
 |------|---------|----------|-------------|-------|
+| [Mike](https://github.com/willchen96/mike) | AGPL-3.0 | TypeScript | Open-source AI legal platform with Next.js frontend and Express backend; integrates Supabase Auth + Postgres, S3-compatible storage, and LibreOffice for DOC/DOCX-to-PDF conversion | [GitHub](https://github.com/willchen96/mike) |
 
 
 
