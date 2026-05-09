@@ -22,6 +22,7 @@ Ingestion, parsing, RAG, NLP, and output validation for legal document corpora.
 
 | Name | License | Language | Description | Links |
 |------|---------|----------|-------------|-------|
+| [legal-sources](https://github.com/worldwidelaw/legal-sources) | AGPL-3.0 | Python | 243 collection scripts for open legal data from 50+ countries (EU, EFTA, UK, US, CA and more); standardized scrapers for legislation and case law from official government portals and APIs; normalizes to a common schema; powers the Legal Data Hunter search API (6M+ documents indexed) | [GitHub](https://github.com/worldwidelaw/legal-sources) · [Dashboard](https://legaldatahunter.com) |
 | [Water Law Dataset](https://github.com/jrklaus8/water-law-dataset) | MIT | Python | 83,596 water law judicial decisions from Brazil (27 state courts), Canada (CanLII API), and the Netherlands (Rechtspraak); includes scrapers, a regex-based jurimetric coding engine (21 categories, 4 languages), and merge utilities; academic research dataset 2016–2026 | [GitHub](https://github.com/jrklaus8/water-law-dataset) · [Dashboard](https://jrklaus8.github.io/water-law-dataset/) · [Zenodo](https://doi.org/10.5281/zenodo.19836413) |
 
 
