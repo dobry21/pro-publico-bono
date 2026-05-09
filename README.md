@@ -59,36 +59,36 @@ Libraries for generating, editing, and templating Word documents — contracts, 
 ### 2b — Search Engines
 | Name | License | Language | Description | Links |
 |------|---------|----------|-------------|-------|
-| [Meilisearch](https://www.meilisearch.com/) | MIT | Rust | Fast, typo-tolerant full-text search engine; good for building in-house legal knowledge bases | [GitHub](https://github.com/meilisearch/meilisearch) |
+| [Meilisearch](https://www.meilisearch.com/) | MIT | Rust | Fast, typo-tolerant search engine API; supports hybrid search (semantic + full-text), filtering, sorting, geosearch, and faceting; sub-50ms search-as-you-type; replicated sharding for horizontal scaling | [GitHub](https://github.com/meilisearch/meilisearch) |
 
 ### 2c — Databases
 | Name | License | Language | Description | Links |
 |------|---------|----------|-------------|-------|
-| [Weaviate](https://weaviate.io/) | BSD-3 | Go | Open-source vector database for semantic search over legal corpora | [GitHub](https://github.com/weaviate/weaviate) |
-| [Qdrant](https://qdrant.tech/) | Apache-2.0 | Rust | High-performance vector search engine; well-suited for contract similarity and case law retrieval | [GitHub](https://github.com/qdrant/qdrant) |
-| [Supabase](https://supabase.com/) | Apache-2.0 | TypeScript | Open-source Firebase alternative (Postgres + Auth + Storage); rapid backend for legal AI apps | [GitHub](https://github.com/supabase/supabase) |
+| [Weaviate](https://weaviate.io/) | BSD-3 | Go | Open-source vector database storing objects and vectors together; supports hybrid search (BM25 + semantic), built-in generative search (RAG), automatic vectorization or pre-computed embeddings, multi-tenancy, RBAC, and vector quantization for memory efficiency | [GitHub](https://github.com/weaviate/weaviate) |
+| [Qdrant](https://qdrant.tech/) | Apache-2.0 | Rust | Vector search engine supporting dense, sparse, and multivector representations; rich JSON payload filtering (keyword, full-text, numeric, geo, boolean); hybrid search with RRF/DBSF fusion; quantization reducing RAM usage up to 97%; zero-downtime scaling with sharding and replication | [GitHub](https://github.com/qdrant/qdrant) |
+| [Supabase](https://supabase.com/) | Apache-2.0 | TypeScript | Postgres development platform bundling a hosted database, auto-generated REST and GraphQL APIs, Auth, Realtime subscriptions, file storage, and an AI/vector toolkit (pgvector); self-hostable; data API built on PostgREST | [GitHub](https://github.com/supabase/supabase) |
 
 ### 2d — Model Deployment
 | Name | License | Language | Description | Links |
 |------|---------|----------|-------------|-------|
-| [Ollama](https://ollama.com/) | MIT | Go | Run open-weight LLMs locally; critical for air-gapped legal environments where data cannot leave premises | [GitHub](https://github.com/ollama/ollama) |
-| [vLLM](https://docs.vllm.ai/) | Apache-2.0 | Python | High-throughput LLM serving; deploy open models for internal legal AI with production performance | [GitHub](https://github.com/vllm-project/vllm) |
+| [Ollama](https://ollama.com/) | MIT | Go | Run open-weight LLMs locally via a single command; manages model quantization and GPU memory automatically; exposes an OpenAI-compatible REST API at localhost; supports Docker deployment and a wide model library (Llama, Qwen, DeepSeek, Gemma, and more) | [GitHub](https://github.com/ollama/ollama) |
+| [vLLM](https://docs.vllm.ai/) | Apache-2.0 | Python | High-throughput, memory-efficient LLM inference engine; features PagedAttention, continuous batching, prefix caching, and quantization (GPTQ/AWQ/INT4/INT8/FP8); supports tensor, pipeline, and expert parallelism; runs on NVIDIA/AMD GPUs, CPUs, TPUs, and Apple Silicon; OpenAI-compatible API; 200+ Hugging Face model architectures | [GitHub](https://github.com/vllm-project/vllm) |
 
 ### 2e — Model Safety
 | Name | License | Language | Description | Links |
 |------|---------|----------|-------------|-------|
-| [Guardrails AI](https://www.guardrailsai.com/) | Apache-2.0 | Python | Validates and corrects LLM outputs against schemas and rules; useful for contract clause extraction | [GitHub](https://github.com/guardrails-ai/guardrails) |
-| [Garak](https://garak.ai/) | Apache-2.0 | Python | LLM vulnerability scanner; red-teaming tool to probe legal AI systems for hallucination and bias | [GitHub](https://github.com/NVIDIA/garak) |
-| [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | Apache-2.0 | Python | NVIDIA's toolkit for adding programmable guardrails (topical, safety, factual) to LLM applications | [GitHub](https://github.com/NVIDIA/NeMo-Guardrails) |
+| [Guardrails AI](https://www.guardrailsai.com/) | Apache-2.0 | Python | Framework for adding input/output validation to LLM applications; uses a RAIL (Reliable AI Markup Language) spec to define structure, types, and validators; Guardrails Hub provides pre-built validators for jailbreak detection, PII anonymization, hallucination detection, prompt-leakage checks, and output schema conformance | [GitHub](https://github.com/guardrails-ai/guardrails) |
+| [Garak](https://garak.ai/) | Apache-2.0 | Python | LLM vulnerability scanner using static, dynamic, and adaptive probes; sends targeted prompts to models, collects stochastic generations, and runs detectors (keyword-based or classifier-based) to identify failure modes such as broken alignment, harmful output, and prompt injection; includes automated attack generation via a red-teaming LLM; produces JSONL reports with full prompt/response/score tracing | [GitHub](https://github.com/NVIDIA/garak) |
+| [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) | Apache-2.0 | Python | Toolkit for adding programmable guardrails to LLM applications using Colang, a Python-like domain-specific language for dialogue flow design; supports input rails, dialog rails, retrieval rails (for RAG), and output rails; IORails engine enables parallel execution; integrates with LangChain and major LLM providers | [GitHub](https://github.com/NVIDIA-NeMo/Guardrails) |
 
 ### 2f — Self-Hosted AI Workspaces
 
-General-purpose, self-hostable AI chat platforms with RAG, agents, and document intelligence — deployable on-premises for data-sensitive legal environments.
+General-purpose, self-hostable AI chat platforms with RAG, agents, and document intelligence — deployable on-premises for data-sensitive environments.
 
 | Name | License | Language | Description | Links |
 |------|---------|----------|-------------|-------|
-| [Onyx (FOSS)](https://github.com/onyx-dot-app/onyx-foss) | MIT | Python / TypeScript | Feature-rich self-hostable AI chat platform; RAG with hybrid search + knowledge graph, 40+ connectors, custom agents, MCP, deep research, web search, code interpreter, and RBAC — fully air-gap compatible | [GitHub](https://github.com/onyx-dot-app/onyx-foss) · [Docs](https://docs.onyx.app) |
-| [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) | MIT | JavaScript | All-in-one desktop & Docker AI app; RAG over any document type, no-code agent builder, MCP compatibility, multi-user permissions, 30+ LLM providers, and embeddable chat widget — runs fully locally | [GitHub](https://github.com/Mintplex-Labs/anything-llm) · [Site](https://anythingllm.com) |
+| [Onyx (FOSS)](https://github.com/onyx-dot-app/onyx-foss) | MIT | Python / TypeScript | Self-hostable AI chat platform (100% MIT auto-sync of the main Onyx repo); features agentic RAG with hybrid search, deep research (multi-step), custom agents, 50+ connectors, MCP, web search, code execution, voice mode, image generation, SSO (OAuth/OIDC/SAML), RBAC, and usage analytics; deployable via Docker, Kubernetes, or Helm | [GitHub](https://github.com/onyx-dot-app/onyx-foss) · [Docs](https://docs.onyx.app) |
+| [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) | MIT | JavaScript | All-in-one desktop and Docker AI application; RAG over any document type, native multi-step tool-calling agents, multi-user support with per-user access controls, 30+ LLM provider integrations, Telegram bot integration, and a browser extension; runs fully locally with no mandatory cloud dependency | [GitHub](https://github.com/Mintplex-Labs/anything-llm) · [Site](https://anythingllm.com) |
 
 ---
 
