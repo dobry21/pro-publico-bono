@@ -10,8 +10,7 @@ A curated list of interesting tools, frameworks, and open-source projects at the
 
 Agent frameworks and pipeline coordination for multi-step legal AI workflows.
 
-| Name | License | Language | Description | Links |
-|------|---------|----------|-------------|-------|
+
 
 
 ### 1b — Data
@@ -21,9 +20,6 @@ Ingestion, parsing, RAG, NLP, and output validation for legal document corpora.
 | Name | License | Language | Description | Links |
 |------|---------|----------|-------------|-------|
 
-| [Unstructured](https://unstructured.io/) | Apache-2.0 | Python | Preprocessing library for extracting text from legal PDFs, court filings, and HTML pages | [GitHub](https://github.com/Unstructured-IO/unstructured) |
-| [OpenContracts](https://github.com/JSv4/OpenContracts) | Apache-2.0 | Python | Open-source legal document annotation and analysis platform built on Django + GraphQL | [GitHub](https://github.com/JSv4/OpenContracts) |
-| [Spacy-LLM](https://spacy.io/usage/large-language-models) | MIT | Python | Integrates LLMs into spaCy NLP pipelines for legal NER (parties, dates, clauses, jurisdiction) | [GitHub](https://github.com/explosion/spacy-llm) |
 
 
 
