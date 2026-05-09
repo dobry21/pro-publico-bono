@@ -81,6 +81,15 @@ Libraries for generating, editing, and templating Word documents — contracts, 
 | [Garak](https://garak.ai/) | Apache-2.0 | Python | LLM vulnerability scanner; red-teaming tool to probe legal AI systems for hallucination and bias | [GitHub](https://github.com/NVIDIA/garak) |
 | [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | Apache-2.0 | Python | NVIDIA's toolkit for adding programmable guardrails (topical, safety, factual) to LLM applications | [GitHub](https://github.com/NVIDIA/NeMo-Guardrails) |
 
+### 2f - Self-Hosted AI Workspaces
+
+General-purpose, self-hostable AI chat platforms with RAG, agents, and document intelligence — deployable on-premises for data-sensitive legal environments.
+
+| Name | License | Language | Description | Links |
+|------|---------|----------|-------------|-------|
+| [Onyx (FOSS)](https://github.com/onyx-dot-app/onyx-foss) | MIT | Python / TypeScript | Feature-rich self-hostable AI chat platform; RAG with hybrid search + knowledge graph, 40+ connectors, custom agents, MCP, deep research, web search, code interpreter, and RBAC — fully air-gap compatible | [GitHub](https://github.com/onyx-dot-app/onyx-foss) · [Docs](https://docs.onyx.app) |
+| [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) | MIT | JavaScript | All-in-one desktop & Docker AI app; RAG over any document type, no-code agent builder, MCP compatibility, multi-user permissions, 30+ LLM providers, and embeddable chat widget — runs fully locally | [GitHub](https://github.com/Mintplex-Labs/anything-llm) · [Site](https://anythingllm.com) |
+
 ---
 
 ## Notes
