@@ -73,6 +73,7 @@ Libraries for generating, editing, and templating Word documents.
 |------|---------|----------|-------------|-------|
 | [Ollama](https://ollama.com/) | MIT | Go | Run open-weight LLMs locally via a single command; manages model quantization and GPU memory automatically; exposes an OpenAI-compatible REST API at localhost; supports Docker deployment and a wide model library (Llama, Qwen, DeepSeek, Gemma, and more) | [GitHub](https://github.com/ollama/ollama) |
 | [vLLM](https://docs.vllm.ai/) | Apache-2.0 | Python | High-throughput, memory-efficient LLM inference engine; features PagedAttention, continuous batching, prefix caching, and quantization (GPTQ/AWQ/INT4/INT8/FP8); supports tensor, pipeline, and expert parallelism; runs on NVIDIA/AMD GPUs, CPUs, TPUs, and Apple Silicon; OpenAI-compatible API; 200+ Hugging Face model architectures | [GitHub](https://github.com/vllm-project/vllm) |
+| [LiteLLM](https://docs.litellm.ai/) | MIT | Python | AI Gateway and Python SDK providing a unified OpenAI-compatible interface to 100+ LLM providers (Anthropic, Bedrock, Azure, Vertex AI, HuggingFace, vLLM, NVIDIA NIM, and more); features load balancing, fallback/retry logic, virtual keys, per-user/team spend tracking, guardrails, caching, and an admin dashboard; deployable as a self-hosted proxy server | [GitHub](https://github.com/BerriAI/litellm) · [Agent Platform](https://github.com/BerriAI/litellm-agent-platform) |
 
 ### 2e — Model Safety
 | Name | License | Language | Description | Links |
