@@ -12,6 +12,7 @@ Agent frameworks and pipeline coordination for multi-step legal AI workflows.
 
 | Name | License | Language | Description | Links |
 |------|---------|----------|-------------|-------|
+| [Claude for Legal](https://github.com/anthropics/claude-for-legal) | Apache-2.0 | Python | Anthropic's reference suite of 13 practice-area plugins and 70+ named agents for legal workflows (commercial, corporate, employment, privacy, IP, litigation, and more); installable as Claude plugins or deployed via Managed Agents API; features cold-start interviews, practice profiles (CLAUDE.md), 20+ MCP connector integrations (Ironclad, DocuSign, iManage, Westlaw), and scheduled monitoring agents for regulatory feeds, renewals, and dockets; all outputs are attorney-review drafts | [GitHub](https://github.com/anthropics/claude-for-legal) |
 | [Mike](https://github.com/willchen96/mike) | AGPL-3.0 | TypeScript | Open-source AI legal platform with Next.js frontend and Express backend; integrates Supabase Auth + Postgres, S3-compatible storage, and LibreOffice for DOC/DOCX-to-PDF conversion | [GitHub](https://github.com/willchen96/mike) |
 | [Suzie Law](https://github.com/firelex/suzielaw) | MIT | TypeScript | Open-source alternative to Harvey; legal AI workspace with counsel chat, 12 practice-area personas, 160+ agentic prompt recipes, document Q&A, DOCX drafting, RAG knowledge base, CourtListener case-law research, and local model support; built on the Team Suzie agent platform | [GitHub](https://github.com/firelex/suzielaw) · [Site](https://suzielaw.com) |
 
@@ -34,10 +35,12 @@ Libraries for generating, editing, and templating Word documents.
 
 | Name | License | Language | Description | Links |
 |------|---------|----------|-------------|-------|
+| [Adeu](https://github.com/dealfluence/adeu) | MIT | Python / TypeScript | Bidirectional docx ↔ LLM translator that converts Word documents to Markdown for AI editing and applies changes back as native Track Changes; preserves existing formatting, fonts, and layout; available as an MCP server for Claude, Gemini, and Cursor; supports live Word integration on Windows and optional Adeu Cloud integration | [GitHub](https://github.com/dealfluence/adeu) |
 | [Docling](https://ds4sd.github.io/docling/) | MIT | Python | IBM document parsing library; converts PDF, DOCX, PPTX, XLSX, HTML, images, LaTeX, and audio to Markdown, HTML, or lossless JSON; advanced PDF understanding (layout, reading order, tables via TableFormer, formulas, image classification); also available as a REST API via docling-serve | [GitHub](https://github.com/docling-project/docling) |
 | [python-docx](https://python-docx.readthedocs.io/) | MIT | Python | Create, read, and modify Word 2007+ (.docx) files programmatically; supports paragraphs, headings, tables, images, styles, headers, and footers | [GitHub](https://github.com/python-openxml/python-docx) |
 | [docxtpl](https://docxtpl.readthedocs.io/) | MIT | Python | Uses a .docx file as a Jinja2 template; supports variables, loops, conditionals, inline images, table cell merging (colspan), subdocuments, and custom Jinja2 filters; templates are authored directly in Word | [GitHub](https://github.com/elapouya/python-docx-template) |
 | [Mammoth](https://github.com/mwilliamson/mammoth.py) | BSD-2 | Python / JS | Converts .docx to clean semantic HTML or Markdown by mapping Word paragraph styles to HTML elements; supports customizable style mappings, inline or file-based image export, and raw text extraction; available in Python, JavaScript, Java, and .NET | [GitHub](https://github.com/mwilliamson/mammoth.py) |
+| [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | Apache-2.0 | C# | Self-contained CLI tool for AI agents to create, read, and modify .docx, .xlsx, and .pptx files without Microsoft Office; path-based element addressing, JSON output, `{{key}}` template merge, 150+ Excel formula evaluation, pivot table generation, native HTML/PNG rendering, MCP server integration, and batch atomic transactions; single binary with embedded .NET runtime; cross-platform | [GitHub](https://github.com/iOfficeAI/OfficeCLI) |
 
 
 ---
